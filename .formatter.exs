@@ -1,3 +1,4 @@
+# .formatter.exs
 [
   import_deps: [:ecto, :ecto_sql, :phoenix],
   subdirectories: ["priv/*/migrations"],

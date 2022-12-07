@@ -1,0 +1,20 @@
+{
+  "skip_files": [
+    "test/support",
+    "lib/tutorial_base_web/endpoint.ex",
+    "lib/tutorial_base_web/gettext.ex",
+    "lib/tutorial_base_web/application.ex",
+    "lib/tutorial_base_web.ex",
+    "lib/tutorial_base_web/telemetry.ex",
+    "lib/tutorial_base_web/components/core_components.ex",
+    "lib/tutorial_base_web/views/error_helpers",
+    "lib/tutorial_base_web/controllers/fallback_controller.ex",
+    "lib/tutorial_base_web/views/error_view.ex",
+    "lib/tutorial_base_web/views/error_helper "
+  ],
+  "coverage_options": {
+    "treat_no_relevant_lines_as_covered": true,
+    "output_dir": "cover/",
+    "minimum_coverage": 60
+  }
+}
